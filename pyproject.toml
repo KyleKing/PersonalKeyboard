@@ -1,0 +1,16 @@
+[build-system]
+requires = [ "poetry>=1.0",]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "personal_keyboard"
+version = "0.0.1"
+description = "Personal keyboard configuration for both Mac and Windows. Written in Python"
+authors = [ "Kyle King <https://github.com/KyleKing>",]
+repository = "https://github.com/kyleking/PersonalKeyboard"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+keyboard = "*"
+
+[tool.poetry.dev-dependencies]

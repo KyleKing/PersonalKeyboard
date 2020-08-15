@@ -1,0 +1,12 @@
+{
+    "snippets": [
+        ["`im", "![__Img__](@clipboard)"],
+        ["`img", "<p align=\"center\">\n\t<img width=\"450\" height=auto src=\"@cursor\" alt=\"blankTitle\">\n</p>\n<p align=\"center\">__placeholder__</p>"],
+        ["`li", "[__Link__](@clipboard)"],
+        ["kgit", "https://github.com/KyleKing"],
+        ["rpi", "Raspberry Pi "],
+        ["`ptw", "poetry run ptw -- -vv -m \"not @cursor\""],
+        ["`pr", "poetry run "],
+        ["please", "sudo "]
+    ]
+}
